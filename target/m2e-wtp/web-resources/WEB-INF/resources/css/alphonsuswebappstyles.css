@@ -1,0 +1,248 @@
+/********* NAVBAR *********/
+.navbar-default .navbar-nav.nav-alphonsus-style>.active>a {
+	background-color: #000000;
+	color: #fff;
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.navbar-default .navbar-nav.nav-alphonsus-style>li>a:hover {
+	background-color: #000000;
+	color: #fff;
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav.nav-alphonsus-style>li>a {
+	color: #979797;
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.navbar-default .navbar-nav.language-buttom-style>li>a {
+	color: #BEBEBE;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+}
+
+.navbar-default .navbar-nav.language-buttom-style>li>a:hover,.navbar-default .navbar-nav.language-buttom-style>li.dropdown.open>a:hover
+	{
+	color: #BEBEBE;
+	background-color: #000000;
+}
+
+.navbar-default .navbar-nav.language-buttom-style>li.dropdown.open>a {
+	color: #BEBEBE;
+	background-color: #1F1F1F;
+}
+
+.dropdown-menu {
+	background-color: #1F1F1F;
+	border-radius: 0px;
+	min-width: 120px;
+	padding: 0px;
+}
+
+.dropdown-menu>li>a {
+	color: #BEBEBE;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bolder;
+}
+
+.dropdown-menu>li>a:hover {
+	color: #BEBEBE;
+	background-color: #000000;
+}
+
+.language-flag-style {
+	top: 2px;
+}
+
+.minerquim-navbar-style {
+	background-color: #000000;
+}
+
+.navbar-pad-original>.container>.navbar-header>a>img.tiny-logo-image-style
+	{
+	display: inline-block;
+}
+
+.navbar-pad-original>.container>.navbar-header>a>img.logo-image-style,.tiny-logo-image-style,.navbar-pad-original>.container>.container.logo-header
+	{
+	display: none;
+}
+
+.logo-header {
+	height: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.header-align-text {
+	text-align: right;
+}
+
+.header-align-text>.row>div>h4,.header-align-text>.row>div>h5 {
+	color: #D8D8D8;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.header-align-text>.row>div>h4,.header-align-text>.row>div>h6 {
+	color: #D8D8D8;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.alphonsus-background {
+	background-image: url('../images/BackgroundPattern.fw.png');
+	background-repeat: repeat;
+}
+
+body.alphonsus-body-style {
+	padding-bottom: 0;
+}
+
+a>i.fa,a.alphonsus-link {
+	color: #696969;
+}
+
+a:hover>i.fa,a:hover.alphonsus-link {
+	color: #fff;
+}
+
+header {
+	margin-bottom: 100px
+}
+
+.navbar-header {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+ul.nav.navbar-nav>li>a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar {
+	min-height: 42px;
+}
+
+/************ FOOTER ***************/
+.footer-center-contain {
+	text-align: center;
+}
+
+.alphonsus-footer-section {
+	background-color: #000000;
+	color: #E9E9E9;
+}
+
+.alphonsus-footer-section p,.alphonsus-footer-section address {
+	font-size: 13px;
+	color: #B4B4B4;
+}
+
+.footer-right-contain {
+	text-align: right;
+}
+
+/****************** circle button go to TOP **********************/
+#top-link {
+	display: none;
+	position: fixed;
+	right: 30px;
+	bottom: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+	opacity: 0.8
+}
+
+.btn.btn-default.btn-circle.btn-lg {
+	width: 50px;
+	height: 50px;
+	padding: 10px 16px;
+	border-radius: 25px;
+}
+
+a.btn.btn-default.btn-circle.btn-lg {
+	text-align: center;
+	padding-left: 9px;
+	padding-top: 12px;
+	background-color: #ccc;
+}
+
+a:hover.btn.btn-default.btn-circle.btn-lg {
+	text-align: center;
+	padding-left: 9px;
+	padding-top: 12px;
+	background-color: #B3B3B3;
+}
+
+/****************** GENERAL STYLES **********************/
+.separator-row {
+	height: 28px;
+}
+
+.title-text-align-right {
+	text-align: right;
+}
+
+.sp-thumbs img {
+	width: 50px;
+	height: 50px;
+}
+
+/****************** SECTION STYLES **********************/
+.alphonsus-section-style {
+	height: 400px;
+	background-color: white;
+	color: rgb(40, 40, 40);
+}
+
+.alphonsus-section-white-font-style {
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+
+.alphonsus-section-black-font-style {
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	text-align: center;
+	color: black;
+}
+
+.alphonsus-background-image-style {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.alphonsus-first-section-style {
+	padding-top: 10px;
+}
+
+.prueba{
+	background-color: #fff;
+	padding-bottom: 18px;
+}
+
+.prueba:hover{
+	background-color: #EDEDED;
+	padding-bottom: 18px;
+}
