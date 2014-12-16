@@ -51,4 +51,10 @@ public class MainController {
 		return "aboutUs";
 	}
 	
+	@RequestMapping(value="carousel.htm", method=RequestMethod.GET )
+	public String carousel(Model model)
+	{
+		return "carousel_spike";
+	}
+	
 }
