@@ -106,33 +106,15 @@
 	<c:import url="../views/jspf/footer.jsp" />
 </body>
 <script type="text/javascript">
-$(function () {
-	$('#tinyCarouselUnderwear').carousel({
-		interval : 2000,
-		pause : "false"
-	});
-
-	$('#tinyCarouselUnderwear').carousel('pause');
+// $(function () {
 	
-// 	$('.prueba').mouseover(function() {
-// 		$("#tinyCarouselUnderwear").carousel('cycle');
-// 	});
-});
-// 	$('#pauseButton').click(function() {
-// 		$('#tinyCarouselUnderwear').carousel('pause');
+// 	$('#tinyCarouselUnderwear').carousel({
+// 		interval : 2000,
+// 		pause : "true"
 // 	});
 
-	// 	$('#tinyCarouselUnderwear').carousel({
-	// 		interval : 1000,
-	// 		pause: true
-	// 	});
+// 	$('#tinyCarouselUnderwear').carousel('pause');
 
-	// 	$('.prueba').mouseover(function(){
-	// 			$('#tinyCarouselUnderwear').carousel({
-	// 				interval : 1000
-	// 			});
-	// 			$('#tinyCarouselUnderwear').carousel('cycle');
-	// 	     }
-	// 	);
+// });
 </script>
 </html>
