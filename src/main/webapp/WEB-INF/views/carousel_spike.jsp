@@ -261,9 +261,13 @@
 		</div>
 
 		<script type="text/javascript">
+		var carouselCounter = 0;
+
 			$(function() {
+				
+				
 				$('.homeCarousel').carousel({
-					interval : 1500,
+					interval : 10,
 					pause : "false"
 				});
 
@@ -275,6 +279,23 @@
 
 				$('.homeCarousel').mouseleave(function() {
 					$(this).carousel('pause');
+					carouselCounter=0;
+					$(this).carousel({
+						interval : 10,
+						pause : "false"
+					});
+					$(this).carousel('pause');
+				});
+
+				$('.homeCarousel').on('slide.bs.carousel', function() {
+					if (carouselCounter == 0) {
+						alert("hi");
+						$(this).carousel({
+							interval : 2000,
+							pause : "false"
+						});
+					}
+					carouselCounter++;
 				});
 			});
 		</script>
