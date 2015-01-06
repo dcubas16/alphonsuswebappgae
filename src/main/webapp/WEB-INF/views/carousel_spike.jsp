@@ -1,17 +1,21 @@
-<div id="tinyCarousel" class="carousel slide tinyCarousel">
+<div id="tinyCarousel" class="carousel slide tinyCarousel" style="max-height: 70%;margin-bottom: 0px;">
 	<!-- Menu -->
 	<ol class="carousel-indicators">
-		<li data-target="#tinyCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#tinyCarousel" data-slide-to="1"></li>
-		<li data-target="#tinyCarousel" data-slide-to="2"></li>
+		<li data-target="#tinyCarousel" data-slide-to="0" class=""></li>
+		<li data-target="#tinyCarousel" data-slide-to="1" class=""></li>
+		<li data-target="#tinyCarousel" data-slide-to="2" class="active"></li>
 	</ol>
 
 	<!-- Items -->
 	<div class="carousel-inner">
 
 		<!-- Item 1 -->
-		<div class="item active">
-			<img src="resources/images/prendas/Foto0105.JPG" />
+		<div class="item" style="
+    max-height: 100%;
+">
+			<img src="resources/images/prendas/Foto0105.JPG" style="
+    max-height: 100%;
+">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>HI1</h1>
@@ -25,8 +29,12 @@
 		</div>
 
 		<!-- Item 2 -->
-		<div class="item">
-			<img src="resources/images/prendas/Foto0106.JPG" />
+		<div class="item" style="
+    max-height: 100%;
+">
+			<img src="resources/images/prendas/Foto0106.JPG" style="
+    max-height: 100%;
+">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>Hi</h1>
@@ -39,8 +47,12 @@
 		</div>
 
 		<!-- Item 3 -->
-		<div class="item">
-			<img src="resources/images/prendas/Foto0110.JPG" />
+		<div class="item active" style="
+    max-height: 100%;
+">
+			<img src="resources/images/prendas/Foto0110.JPG" style="
+    max-height: 100%;
+">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>Hi</h1>
@@ -55,8 +67,7 @@
 	<!-- Controls -->
 	<a class="left carousel-control" href="#tinyCarousel" data-slide="prev">
 		<span class="icon-prev"></span>
-	</a> <a class="right carousel-control" href="#tinyCarousel"
-		data-slide="next"> <span class="icon-next"></span>
+	</a> <a class="right carousel-control" href="#tinyCarousel" data-slide="next"> <span class="icon-next"></span>
 	</a>
 </div>
 <script>
@@ -68,21 +79,29 @@ $(function() {
 
 	$('.tinyCarousel').carousel('pause');
 
-	$('.tinyCarousel').hover(function() {
-		$(this).carousel('cycle');
+	$('.tinyCarousel>.carousel-inner>.item').hover(function() {
+		$(this).parents('.tinyCarousel').carousel('cycle');
 	});
 
-	$('.tinyCarousel').mouseleave(function() {
-		$(this).carousel('pause');
+	$('.tinyCarousel>.carousel-inner>.item').mouseleave(function() {
+		$(this).parents('.tinyCarousel').carousel('pause');
+// 		$(this).carousel('pause');
 	});
 
-	$('.carousel>ol.carousel-indicators').hover(function() {
-		$(this).carousel('pause');
-	});
+// 	$('.carousel>ol.carousel-indicators').hover(function() {
+// 		$(this).carousel('pause');
+// 	});
 
-	$('.carousel>.carousel-control').hover(function() {
-		$(this).carousel('pause');
-	});
+// 	$('.carousel>.carousel-control').hover(function() {
+// 		$(this).carousel('pause');
+// 	});
+	
+// 	$("#tinyCarousel>.left.carousel-control").hover(function() {
+// 		$("#tinyCarousel").carousel('pause');
+// 	});
 
+// 	$("#tinyCarousel>.right.carousel-control").hover(function() {
+// 		$("#tinyCarousel").carousel('pause');
+// 	});
 });
 </script>
