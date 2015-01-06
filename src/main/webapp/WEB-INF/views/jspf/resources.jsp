@@ -16,19 +16,19 @@
 <!-- <script src="resources/productStyle/jquery.js"></script> -->
 <script src="resources/bootstrap-3.1.1/js/bootstrap.min.js"></script>
 
-<!-- <script src="resources/bootstrapformhelpers/js/bootstrap-formhelpers.js"></script> -->
-<!-- <script src='resources/knockout/knockout-3.1.0.js'></script> -->
-<!-- <script	src='resources/bootstrapvalidator-dist-0.4.5/dist/js/bootstrapValidator.min.js'></script> -->
-<!-- <script src='resources/new-navbar/custom.js'></script> -->
+<script src="resources/bootstrapformhelpers/js/bootstrap-formhelpers.js"></script>
+<script src='resources/knockout/knockout-3.1.0.js'></script>
+<script	src='resources/bootstrapvalidator-dist-0.4.5/dist/js/bootstrapValidator.min.js'></script>
+<script src='resources/new-navbar/custom.js'></script>
 <script src='resources/js/alphonsus.js'></script>
 
 <!--  ESTILO DE PRODUCTOS  -->
-<!-- <script src='resources/productStyle/jquery.blImageCenter.js'></script> -->
-<!-- <script src='resources/productStyle/jquery.bxslider.min.js'></script> -->
+<script src='resources/productStyle/jquery.blImageCenter.js'></script>
+<script src='resources/productStyle/jquery.bxslider.min.js'></script>
 
-<!-- <link href="resources/productStyle/style.css" rel="stylesheet"> -->
-<!-- <link href="resources/productStyle/smoothproducts.css" rel="stylesheet"> -->
-<!-- <script src='resources/productStyle/smoothproducts.min.js'></script> -->
-<!-- <script src='resources/productStyle/bootstrap.touchspin.js'></script> -->
-<!-- <script src='resources/productStyle/mimity.js'></script> -->
+<link href="resources/productStyle/style.css" rel="stylesheet">
+<link href="resources/productStyle/smoothproducts.css" rel="stylesheet">
+<script src='resources/productStyle/smoothproducts.min.js'></script>
+<script src='resources/productStyle/bootstrap.touchspin.js'></script>
+<script src='resources/productStyle/mimity.js'></script>
 

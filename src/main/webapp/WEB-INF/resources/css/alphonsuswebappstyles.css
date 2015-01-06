@@ -246,3 +246,16 @@ a:hover.btn.btn-default.btn-circle.btn-lg {
 	background-color: #EDEDED;
 	padding-bottom: 18px;
 }
+
+
+/****************** CAROUSEL STYLES **********************/
+.carousel-control.left{
+	background-image: linear-gradient(to right,rgba(0, 0, 0, 0.03) 0,rgba(0,0,0,.0001) 100%);
+}
+
+.carousel-control.right{
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0.03) 100%);
+}
+
+
+

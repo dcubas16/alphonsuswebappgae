@@ -41,4 +41,5 @@
 	$('#homeCarousel').carousel({
 		interval : 2500
 	});
+
 </script>
