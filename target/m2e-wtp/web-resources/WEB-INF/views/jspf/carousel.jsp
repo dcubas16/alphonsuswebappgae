@@ -6,16 +6,16 @@
 <!-- <hr class="featurette-divider"> -->
 <!-- CAROUSEL -->
 <section id="carousel" class="alphonsus-first-section-style">
-	<div id="homeCarousel" class="carousel slide" data-ride="carousel"
+	<div id="homeMainCarousel" class="carousel slide" data-ride="carousel"
 		style="padding-top: 0px; height: 650px; margin-bottom: 0px;">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1" class=""></li>
-			<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+			<li data-target="#homeMainCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#homeMainCarousel" data-slide-to="1" class=""></li>
+			<li data-target="#homeMainCarousel" data-slide-to="2" class=""></li>
 		</ol>
-		<div class="carousel-inner" style="height: 650px;">
-			<div class="item active" style="height: 650px;">
+		<div class="carousel-inner" style="height: 100%;">
+			<div class="item active" style="height: 100%;">
 				<img src="resources/images/Hipodromo/hipo_4.jpg" alt="First slide"
 					style="height: 100%; width: 100%">
 
@@ -29,16 +29,16 @@
 					alt="Third slide" style="height: 100%; width: 100%">
 			</div>
 		</div>
-		<a class="left carousel-control" href="#myCarousel" data-slide="prev"
+		<a class="left carousel-control" href="#homeMainCarousel" data-slide="prev"
 			style="padding-top: 0px; height: 650px;"><span
 			class="glyphicon glyphicon-chevron-left" style=""></span></a> <a
-			class="right carousel-control" href="#myCarousel" data-slide="next"
+			class="right carousel-control" href="#homeMainCarousel" data-slide="next"
 			style="padding-top: 0px; height: 650px;"><span
 			class="glyphicon glyphicon-chevron-right" style=""></span></a>
 	</div>
 </section>
 <script>
-	$('#homeCarousel').carousel({
+	$('#homeMainCarousel').carousel({
 		interval : 2500
 	});
 

@@ -12,7 +12,7 @@
 					<div class="col-md-6">
 						<a href="home.htm"><img class="logo-image-style"
 							src="resources/images/AlphonsusLogo_2.fw.png" height="60"
-							width="350"> </a>
+							width="390"> </a>
 					</div>
 					<div class="col-md-6 header-align-text">
 						<div class="row">
