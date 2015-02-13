@@ -45,6 +45,12 @@ public class MainController {
 		return "viewProduct";
 	}
 	
+	@RequestMapping(value="spike_viewProduct.htm", method=RequestMethod.GET )
+	public String spikeviewProduct(Model model)
+	{
+		return "spike_viewProduct";
+	}
+	
 	@RequestMapping(value="aboutUs.htm", method=RequestMethod.GET )
 	public String aboutUs(Model model)
 	{

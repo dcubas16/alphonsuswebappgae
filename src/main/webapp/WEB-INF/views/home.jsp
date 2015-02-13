@@ -29,7 +29,7 @@
 	</section>
 	<section id="newArrivals"
 		class="alphonsus-section-style alphonsus-background-image-style"
-		style="background-image: url('resources/images/Backgrounds/section_1.fw.png');">
+		style="background-image: url('resources/images/Backgrounds/section_5.fw.png');">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
