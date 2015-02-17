@@ -258,4 +258,10 @@ a:hover.btn.btn-default.btn-circle.btn-lg {
 }
 
 
-
+/********************** TEST ***********************/
+#products : after{
+width: 100%;
+height:150px;
+display:block;
+clear:both;
+}
