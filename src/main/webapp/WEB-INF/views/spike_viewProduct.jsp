@@ -101,6 +101,10 @@
 	width: 22px;
 }
 </style>
+<style>
+
+/* div[style*="background-color: rgb(221, 0, 0)"] */
+</style>
 </head>
 <body class="alphonsus-background alphonsus-body-style">
 	<%-- 	<c:import url="../views/jspf/header.jsp" /> --%>
@@ -198,9 +202,11 @@
 			});
 		});
 
-		// 		$('#myFancyCloudZoom').bind('cloudzoom_ready',function(){ CloudZoom.quickStart();});
+		$('#myFancyCloudZoom').bind('cloudzoom_start_zoom', function() {
+			console.log('Cloud Zoom is started');
+			$('div[style*="background-color: rgb(221, 0, 0)"]').hide();
+		});
 	</script>
-
 
 </body>
 </html>

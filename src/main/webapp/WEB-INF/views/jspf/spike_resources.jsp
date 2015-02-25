@@ -35,6 +35,6 @@
 <script type="text/javascript" src="resources/thumbelina-master/thumbelina.js"></script>
 <link href="resources/thumbelina-master/thumbelina.css" type="text/css" rel="stylesheet">
 <script type="text/javascript" src="resources/cloudzoom/cloudzoom.js"></script>
-<link href="resources/cloudzoom/cloudzoom.css" type="text/css" rel="stylesheet">
+<!-- <link href="resources/cloudzoom/cloudzoom.css" type="text/css" rel="stylesheet"> -->
 <script type="text/javascript" src="resources/fancyBox/source/jquery.fancybox.js"></script>
 <link href="resources/fancyBox/source/jquery.fancybox.css" type="text/css" rel="stylesheet">
