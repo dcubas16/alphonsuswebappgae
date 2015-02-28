@@ -83,29 +83,6 @@
 					</div>
 
 					<div class="row">
-
-						<div class="col-lg-5 col-md-5 col-sm-12">
-							<div class="sp-wrap" style="display: inline-block;">
-								<div class="sp-large">
-									<a href="resources/images/prendas/Foto0110.JPG" class=""><img
-										src="resources/images/prendas/Foto0110.JPG" alt=""></a>
-								</div>
-								<div class="sp-thumbs sp-tb-active">
-									<a href="resources/images/prendas/Foto0109.JPG"
-										class="sp-current"><img
-										src="resources/images/prendas/Foto0109.JPG" alt=""></a><a
-										href="resources/images/prendas/Foto0109.JPG"><img
-										src="resources/images/prendas/Foto0109.JPG" alt=""></a><a
-										href="resources/images/prendas/Foto0109.JPG"><img
-										src="resources/images/prendas/Foto0109.JPG" alt=""></a><a
-										href="resources/images/prendas/Foto0109.JPG"><img
-										src="resources/images/prendas/Foto0109.JPG" alt=""></a><a
-										href="resources/images/prendas/Foto0109.JPG"><img
-										src="resources/images/prendas/Foto0109.JPG" alt=""></a>
-								</div>
-							</div>
-
-						</div>
 						<div class="col-lg-7 col-md-7 col-sm-12">
 							<h4>Live Nation 3 Days of Peace and Music Carbon</h4>
 							98 items in stock
@@ -116,25 +93,48 @@
 							part of modern culture and they have a great influence on teens
 							because of their freedom and epatage. We are offering you our
 							unique and original products.
-							<hr>
-							<h3>$428.96</h3>
-							<div class="input-qty-detail">
-								<div class="input-group bootstrap-touchspin" style="">
-									<span class="input-group-btn"><button
-											class="btn btn-default bootstrap-touchspin-down"
-											type="button">-</button></span><span
-										class="input-group-addon bootstrap-touchspin-prefix"></span><input
-										type="text" class="form-control input-qty text-center"
-										value="1"><span
-										class="input-group-addon bootstrap-touchspin-postfix"></span><span
-										class="input-group-btn"><button
-											class="btn btn-default bootstrap-touchspin-up" type="button">+</button></span>
-								</div>
-								<button class="btn btn-primary pull-left">add to cart</button>
-							</div>
-							<br>
-							<hr>
+							
 						</div>
+						<div class="col-lg-5 col-md-5 col-sm-12">
+							<div id="wrapper">
+								<div id="surround">
+									<img class="cloudzoom thumbnail" id="myFancyCloudZoom"
+										src="resources/cloudzoom/images/small/image1.jpg"
+										data-cloudzoom="zoomImage:'resources/cloudzoom/images/large/image1.jpg',
+                         				zoomFlyOut:false, zoomPosition:'inside', zoomOffsetX:0, captionPosition:'bottom' "
+										style="-webkit-user-select: none;">
+									<div id="slider1" class="slider-gallery">
+										<div class="thumbelina-but horiz left disabled"
+											style="display: none;">˂</div>
+										<div class="slider-container">
+											<div>
+												<ul class="thumbelina">
+													<li style="display: inline-block;"><img
+														class="cloudzoom-gallery"
+														src="resources/cloudzoom/images/thumbs/image1.jpg"
+														data-cloudzoom="useZoom:'#myFancyCloudZoom', image:'resources/cloudzoom/images/small/image1.jpg', zoomImage:'resources/cloudzoom/images/large/image1.jpg'"></li>
+
+													<li style="display: inline-block;"><img
+														class="cloudzoom-gallery cloudzoom-gallery-active"
+														src="resources/cloudzoom/images/thumbs/image2.jpg"
+														data-cloudzoom="useZoom:'#myFancyCloudZoom', image:'resources/cloudzoom/images/small/image2.jpg', zoomImage:'resources/cloudzoom/images/large/image2.jpg'"></li>
+
+													<li style="display: inline-block;"><img
+														class="cloudzoom-gallery"
+														src="resources/cloudzoom/images/thumbs/image3.jpg"
+														data-cloudzoom="useZoom:'#myFancyCloudZoom', image:'resources/cloudzoom/images/small/image3.jpg', zoomImage:'resources/cloudzoom/images/large/image3.jpg' "></li>
+												</ul>
+											</div>
+										</div>
+										<div class="thumbelina-but horiz right disabled"
+											style="display: none;">&gt;</div>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+						
 					</div>
 
 					<div class="clearfix"></div>
@@ -219,5 +219,11 @@
 		</div>
 	</section>
 	<c:import url="../views/jspf/footer.jsp" />
+	<script type="text/javascript">
+$('#myFancyCloudZoom').bind('cloudzoom_start_zoom', function() {
+	console.log('Cloud Zoom is started');
+	$('div[style*="background-color: rgb(221, 0, 0)"]').hide();
+});
+</script>
 </body>
 </html>
