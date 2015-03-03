@@ -14,14 +14,14 @@
 	<c:import url="../views/jspf/header.jsp" />
 	<section id="products">
 		<div class="container">
-		<div class="row separator-row"></div>
+			<div class="row separator-row"></div>
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-12">
 
 					<!-- Best Seller -->
 					<div class="col-lg-12 col-md-12 col-sm-12 visible-lg visible-md">
 						<div class="no-padding">
-							<span class="title">Los más vendidos</span>
+							<span class="title-left">Los más vendidos</span>
 						</div>
 						<div class="thumbnail col-lg-12 col-md-12 col-sm-6 text-center">
 							<a href="detail.html" class="link-p"
@@ -84,16 +84,20 @@
 
 					<div class="row">
 						<div class="col-lg-7 col-md-7 col-sm-12">
-							<h4>Live Nation 3 Days of Peace and Music Carbon</h4>
-							98 items in stock
+							<h4 style="color: #404040; font-family: lucida sans unicode, lucida grande, sans-serif;">
+								<strong>Live Nation 3 Days of Peace and Music Carbon</strong>
+							</h4>
+							<p>98 items in stock</p>
 							<hr>
-							Actually this part of clothes is very unique and original. It is
-							a way of self-expression because nowadays making some logo or
-							phrase has become very popular. Obviously the T-shirts are the
-							part of modern culture and they have a great influence on teens
-							because of their freedom and epatage. We are offering you our
-							unique and original products.
-							
+							<p
+								style="font-size: 16px; color: #404040; text-align: justify; text-justify: inter-word; font-family: lucida sans unicode, lucida grande, sans-serif;">Actually
+								this part of clothes is very unique and original. It is a way of
+								self-expression because nowadays making some logo or phrase has
+								become very popular. Obviously the T-shirts are the part of
+								modern culture and they have a great influence on teens because
+								of their freedom and epatage. We are offering you our unique and
+								original products.</p>
+
 						</div>
 						<div class="col-lg-5 col-md-5 col-sm-12">
 							<div id="wrapper">
@@ -134,12 +138,12 @@
 
 							</div>
 						</div>
-						
+
 					</div>
 
 					<div class="clearfix"></div>
 					<div class="col-lg-12 col-sm-12">
-						<span class="title">Productos Relacionados</span>
+						<span class="title-left">Productos Relacionados</span>
 					</div>
 					<div class="col-lg-4 col-sm-4 hero-feature text-center">
 						<div class="thumbnail">
@@ -220,10 +224,10 @@
 	</section>
 	<c:import url="../views/jspf/footer.jsp" />
 	<script type="text/javascript">
-$('#myFancyCloudZoom').bind('cloudzoom_start_zoom', function() {
-	console.log('Cloud Zoom is started');
-	$('div[style*="background-color: rgb(221, 0, 0)"]').hide();
-});
-</script>
+		$('#myFancyCloudZoom').bind('cloudzoom_start_zoom', function() {
+			console.log('Cloud Zoom is started');
+			$('div[style*="background-color: rgb(221, 0, 0)"]').hide();
+		});
+	</script>
 </body>
 </html>

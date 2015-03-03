@@ -258,6 +258,17 @@ span.title {
 	padding-bottom: 8px; 
 }
 
+span.title-left {
+	display: block;
+	color: #494949;
+	font-family: lucida sans unicode, lucida grande, sans-serif;
+	font-size: 22px;
+	border-bottom: 2px solid #A5A5A5;
+	text-align: left;
+	margin-bottom: 20px;
+	padding-bottom: 8px; 
+}
+
 .list-group-item:first-child,.list-group-item:last-child {
 	border-radius: 0px;
 }
